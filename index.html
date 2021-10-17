@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ready-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" />
@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="/css/ready.css">
     <title>Vite App</title>
   </head>
-  <body ready-theme="dark">
-    <div id="app"></div>
+  <body>
+    <div id="app">
+      <nav-bar></nav-bar>
+      <router-view></router-view>
+    </div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
